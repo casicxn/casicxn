@@ -14,7 +14,7 @@
 
 <div align="center"> <p>javascript, typescript ve python ile discord botları, api servisleri ve otomasyonlar geliştiriyorum.</p> </div>
 
-stack
+
 <div align="center"> <img src="https://img.shields.io/badge/JavaScript-050505?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript" /> <img src="https://img.shields.io/badge/TypeScript-050505?style=for-the-badge&logo=typescript&logoColor=3178C6" alt="TypeScript" /> <img src="https://img.shields.io/badge/Python-050505?style=for-the-badge&logo=python&logoColor=3776AB" alt="Python" /> <img src="https://img.shields.io/badge/Node.js-050505?style=for-the-badge&logo=nodedotjs&logoColor=339933" alt="Node.js" /> <img src="https://img.shields.io/badge/Discord.js-050505?style=for-the-badge&logo=discord&logoColor=5865F2" alt="Discord.js" /> <img src="https://img.shields.io/badge/MongoDB-050505?style=for-the-badge&logo=mongodb&logoColor=47A248" alt="MongoDB" /> <img src="https://img.shields.io/badge/Redis-050505?style=for-the-badge&logo=redis&logoColor=DC382D" alt="Redis" /> <img src="https://img.shields.io/badge/PM2-050505?style=for-the-badge&logo=pm2&logoColor=2B037A" alt="PM2" /> <img src="https://img.shields.io/badge/Linux-050505?style=for-the-badge&logo=linux&logoColor=white" alt="Linux" /> <img src="https://img.shields.io/badge/Docker-050505?style=for-the-badge&logo=docker&logoColor=2496ED" alt="Docker" /> <img src="https://img.shields.io/badge/Git-050505?style=for-the-badge&logo=git&logoColor=F05032" alt="Git" /> </div>
 
 <div align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=0,000000,10,1a0000,100,660000&height=70&section=footer" width="100%"/> </div>
