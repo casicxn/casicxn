@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="78" height="34" viewBox="0 0 78 34" role="img" aria-label="C">
+  <defs>
+    <linearGradient id="bdr_c" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="22%" stop-color="#9ca3af"/>
+      <stop offset="48%" stop-color="#181c24"/>
+      <stop offset="76%" stop-color="#e5e7eb"/>
+      <stop offset="100%" stop-color="#4b5563"/>
+    </linearGradient>
+    <linearGradient id="bg_c" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#181c24"/>
+      <stop offset="50%" stop-color="#080a0e"/>
+      <stop offset="100%" stop-color="#131720"/>
+    </linearGradient>
+    <linearGradient id="icon_c" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="65%" stop-color="#e5e7eb"/>
+      <stop offset="100%" stop-color="#9ca3af"/>
+    </linearGradient>
+    <linearGradient id="txt_c" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="55%" stop-color="#f3f4f6"/>
+      <stop offset="100%" stop-color="#9ca3af"/>
+    </linearGradient>
+    <clipPath id="clip_c">
+      <polygon points="6,1 72,1 77,6 77,28 72,33 6,33 1,28 1,6"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#clip_c)">
+    <rect x="0" y="0" width="78" height="34" fill="url(#bg_c)"/>
+    <!-- Subtle upper-left specular reflection facet -->
+    <polygon points="0,0 40,0 26,34 0,34" fill="#ffffff" fill-opacity="0.06"/>
+    <!-- Subtle 2px crimson accent notch on left rim -->
+    <rect x="1" y="8" width="2.4" height="18" fill="#dc2626"/>
+  </g>
+
+  <!-- 3D Chrome Bevel Outer Stroke -->
+  <polygon points="6,1.2 72,1.2 76.8,6 76.8,28 72,32.8 6,32.8 1.2,28 1.2,6"
+           fill="none" stroke="url(#bdr_c)" stroke-width="1.35"/>
+  <!-- Inner Crisp Specular Edge -->
+  <polygon points="7,2.6 71,2.6 75.4,7 75.4,27 71,31.4 7,31.4 2.6,27 2.6,7"
+           fill="none" stroke="#ffffff" stroke-opacity="0.08" stroke-width="0.6"/>
+
+  <!-- 16x16 Monochrome Metallic Logo -->
+  <g transform="translate(13, 9) scale(0.6667)" fill="url(#icon_c)">
+      <path d="M16.5921 9.1962s-.354-3.298-3.627-3.39c-3.2741-.09-4.9552 2.474-4.9552 6.14 0 3.6651 1.858 6.5972 5.0451 6.5972 3.184 0 3.5381-3.665 3.5381-3.665l6.1041.365s.36 3.31-2.196 5.836c-2.552 2.5241-5.6901 2.9371-7.8762 2.9201-2.19-.017-5.2261.034-8.1602-2.97-2.938-3.0101-3.436-5.9302-3.436-8.8002 0-2.8701.556-6.6702 4.047-9.5502C7.444.72 9.849 0 12.254 0c10.0422 0 10.7172 9.2602 10.7172 9.2602z"/>
+  </g>
+
+  <!-- Tracked Uppercase Chrome Label -->
+  <text x="38" y="21" font-family="'Segoe UI', 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="11" font-weight="800" letter-spacing="1.1" fill="url(#txt_c)">C</text>
+</svg>

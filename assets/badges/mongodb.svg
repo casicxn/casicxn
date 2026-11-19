@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="116" height="34" viewBox="0 0 116 34" role="img" aria-label="MongoDB">
+  <defs>
+    <linearGradient id="bdr_mongodb" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="22%" stop-color="#9ca3af"/>
+      <stop offset="48%" stop-color="#181c24"/>
+      <stop offset="76%" stop-color="#e5e7eb"/>
+      <stop offset="100%" stop-color="#4b5563"/>
+    </linearGradient>
+    <linearGradient id="bg_mongodb" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#181c24"/>
+      <stop offset="50%" stop-color="#080a0e"/>
+      <stop offset="100%" stop-color="#131720"/>
+    </linearGradient>
+    <linearGradient id="icon_mongodb" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="65%" stop-color="#e5e7eb"/>
+      <stop offset="100%" stop-color="#9ca3af"/>
+    </linearGradient>
+    <linearGradient id="txt_mongodb" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="55%" stop-color="#f3f4f6"/>
+      <stop offset="100%" stop-color="#9ca3af"/>
+    </linearGradient>
+    <clipPath id="clip_mongodb">
+      <polygon points="6,1 110,1 115,6 115,28 110,33 6,33 1,28 1,6"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#clip_mongodb)">
+    <rect x="0" y="0" width="116" height="34" fill="url(#bg_mongodb)"/>
+    <!-- Subtle upper-left specular reflection facet -->
+    <polygon points="0,0 60,0 39,34 0,34" fill="#ffffff" fill-opacity="0.06"/>
+    <!-- Subtle 2px crimson accent notch on left rim -->
+    <rect x="1" y="8" width="2.4" height="18" fill="#dc2626"/>
+  </g>
+
+  <!-- 3D Chrome Bevel Outer Stroke -->
+  <polygon points="6,1.2 110,1.2 114.8,6 114.8,28 110,32.8 6,32.8 1.2,28 1.2,6"
+           fill="none" stroke="url(#bdr_mongodb)" stroke-width="1.35"/>
+  <!-- Inner Crisp Specular Edge -->
+  <polygon points="7,2.6 109,2.6 113.4,7 113.4,27 109,31.4 7,31.4 2.6,27 2.6,7"
+           fill="none" stroke="#ffffff" stroke-opacity="0.08" stroke-width="0.6"/>
+
+  <!-- 16x16 Monochrome Metallic Logo -->
+  <g transform="translate(13, 9) scale(0.6667)" fill="url(#icon_mongodb)">
+      <path d="M17.193 9.555c-1.264-5.58-4.252-7.414-4.573-8.115-.28-.394-.53-.954-.735-1.44-.036.495-.055.685-.523 1.184-.723.566-4.438 3.682-4.74 10.02-.282 5.912 4.27 9.435 4.888 9.884l.07.05A73.49 73.49 0 0111.91 24h.481c.114-1.032.284-2.056.51-3.07.417-.296.604-.463.85-.693a11.342 11.342 0 003.639-8.464c.01-.814-.103-1.662-.197-2.218zm-5.336 8.195s0-8.291.275-8.29c.213 0 .49 10.695.49 10.695-.381-.045-.765-1.76-.765-2.405z"/>
+  </g>
+
+  <!-- Tracked Uppercase Chrome Label -->
+  <text x="38" y="21" font-family="'Segoe UI', 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="11" font-weight="800" letter-spacing="1.1" fill="url(#txt_mongodb)">MONGODB</text>
+</svg>

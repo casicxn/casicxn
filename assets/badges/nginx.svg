@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="93" height="34" viewBox="0 0 93 34" role="img" aria-label="Nginx">
+  <defs>
+    <linearGradient id="bdr_nginx" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="22%" stop-color="#9ca3af"/>
+      <stop offset="48%" stop-color="#181c24"/>
+      <stop offset="76%" stop-color="#e5e7eb"/>
+      <stop offset="100%" stop-color="#4b5563"/>
+    </linearGradient>
+    <linearGradient id="bg_nginx" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#181c24"/>
+      <stop offset="50%" stop-color="#080a0e"/>
+      <stop offset="100%" stop-color="#131720"/>
+    </linearGradient>
+    <linearGradient id="icon_nginx" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="65%" stop-color="#e5e7eb"/>
+      <stop offset="100%" stop-color="#9ca3af"/>
+    </linearGradient>
+    <linearGradient id="txt_nginx" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="55%" stop-color="#f3f4f6"/>
+      <stop offset="100%" stop-color="#9ca3af"/>
+    </linearGradient>
+    <clipPath id="clip_nginx">
+      <polygon points="6,1 87,1 92,6 92,28 87,33 6,33 1,28 1,6"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#clip_nginx)">
+    <rect x="0" y="0" width="93" height="34" fill="url(#bg_nginx)"/>
+    <!-- Subtle upper-left specular reflection facet -->
+    <polygon points="0,0 48,0 31,34 0,34" fill="#ffffff" fill-opacity="0.06"/>
+    <!-- Subtle 2px crimson accent notch on left rim -->
+    <rect x="1" y="8" width="2.4" height="18" fill="#dc2626"/>
+  </g>
+
+  <!-- 3D Chrome Bevel Outer Stroke -->
+  <polygon points="6,1.2 87,1.2 91.8,6 91.8,28 87,32.8 6,32.8 1.2,28 1.2,6"
+           fill="none" stroke="url(#bdr_nginx)" stroke-width="1.35"/>
+  <!-- Inner Crisp Specular Edge -->
+  <polygon points="7,2.6 86,2.6 90.4,7 90.4,27 86,31.4 7,31.4 2.6,27 2.6,7"
+           fill="none" stroke="#ffffff" stroke-opacity="0.08" stroke-width="0.6"/>
+
+  <!-- 16x16 Monochrome Metallic Logo -->
+  <g transform="translate(13, 9) scale(0.6667)" fill="url(#icon_nginx)">
+      <path d="M12 0L1.605 6v12L12 24l10.395-6V6L12 0zm6 16.59c0 .705-.646 1.29-1.529 1.29-.631 0-1.351-.255-1.801-.81l-6-7.141v6.66c0 .721-.57 1.29-1.274 1.29H7.32c-.721 0-1.29-.6-1.29-1.29V7.41c0-.705.63-1.29 1.5-1.29.646 0 1.38.255 1.83.81l5.97 7.141V7.41c0-.721.6-1.29 1.29-1.29h.075c.72 0 1.29.6 1.29 1.29v9.18H18z"/>
+  </g>
+
+  <!-- Tracked Uppercase Chrome Label -->
+  <text x="38" y="21" font-family="'Segoe UI', 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="11" font-weight="800" letter-spacing="1.1" fill="url(#txt_nginx)">NGINX</text>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="44" viewBox="0 0 880 44" role="img" aria-label="EOF // CASI · FOSHEPTIC SYSTEMS">
+  <defs>
+    <linearGradient id="footBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#131720"/>
+      <stop offset="100%" stop-color="#080a0e"/>
+    </linearGradient>
+    <linearGradient id="footBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#991b1b" stop-opacity="0.8"/>
+      <stop offset="25%" stop-color="#6b7280" stop-opacity="0.7"/>
+      <stop offset="50%" stop-color="#e5e7eb" stop-opacity="0.85"/>
+      <stop offset="75%" stop-color="#6b7280" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#991b1b" stop-opacity="0.8"/>
+    </linearGradient>
+  </defs>
+  <polygon points="8,1 872,1 879,8 879,36 872,43 8,43 1,36 1,8"
+           fill="url(#footBg)" stroke="url(#footBorder)" stroke-width="1.2"/>
+  <!-- Crimson Corner Ticks -->
+  <polyline points="12,11 12,6 18,6" fill="none" stroke="#dc2626" stroke-width="1.6"/>
+  <polyline points="868,11 868,6 862,6" fill="none" stroke="#dc2626" stroke-width="1.6"/>
+  <polyline points="12,33 12,38 18,38" fill="none" stroke="#dc2626" stroke-width="1.6"/>
+  <polyline points="868,33 868,38 862,38" fill="none" stroke="#dc2626" stroke-width="1.6"/>
+
+  <text x="440" y="26.5" text-anchor="middle" font-family="'JetBrains Mono', 'Cascadia Code', 'Fira Code', Consolas, 'Courier New', monospace" font-size="12" font-weight="700" letter-spacing="2">
+    <tspan fill="#dc2626">EOF</tspan><tspan fill="#6b7280"> // </tspan><tspan fill="#f3f4f6">CASI</tspan><tspan fill="#dc2626"> · </tspan><tspan fill="#d1d5db">FOSHEPTIC SYSTEMS</tspan>
+  </text>
+</svg>

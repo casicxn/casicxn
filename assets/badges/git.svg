@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="78" height="34" viewBox="0 0 78 34" role="img" aria-label="Git">
+  <defs>
+    <linearGradient id="bdr_git" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="22%" stop-color="#9ca3af"/>
+      <stop offset="48%" stop-color="#181c24"/>
+      <stop offset="76%" stop-color="#e5e7eb"/>
+      <stop offset="100%" stop-color="#4b5563"/>
+    </linearGradient>
+    <linearGradient id="bg_git" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#181c24"/>
+      <stop offset="50%" stop-color="#080a0e"/>
+      <stop offset="100%" stop-color="#131720"/>
+    </linearGradient>
+    <linearGradient id="icon_git" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="65%" stop-color="#e5e7eb"/>
+      <stop offset="100%" stop-color="#9ca3af"/>
+    </linearGradient>
+    <linearGradient id="txt_git" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="55%" stop-color="#f3f4f6"/>
+      <stop offset="100%" stop-color="#9ca3af"/>
+    </linearGradient>
+    <clipPath id="clip_git">
+      <polygon points="6,1 72,1 77,6 77,28 72,33 6,33 1,28 1,6"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#clip_git)">
+    <rect x="0" y="0" width="78" height="34" fill="url(#bg_git)"/>
+    <!-- Subtle upper-left specular reflection facet -->
+    <polygon points="0,0 40,0 26,34 0,34" fill="#ffffff" fill-opacity="0.06"/>
+    <!-- Subtle 2px crimson accent notch on left rim -->
+    <rect x="1" y="8" width="2.4" height="18" fill="#dc2626"/>
+  </g>
+
+  <!-- 3D Chrome Bevel Outer Stroke -->
+  <polygon points="6,1.2 72,1.2 76.8,6 76.8,28 72,32.8 6,32.8 1.2,28 1.2,6"
+           fill="none" stroke="url(#bdr_git)" stroke-width="1.35"/>
+  <!-- Inner Crisp Specular Edge -->
+  <polygon points="7,2.6 71,2.6 75.4,7 75.4,27 71,31.4 7,31.4 2.6,27 2.6,7"
+           fill="none" stroke="#ffffff" stroke-opacity="0.08" stroke-width="0.6"/>
+
+  <!-- 16x16 Monochrome Metallic Logo -->
+  <g transform="translate(13, 9) scale(0.6667)" fill="url(#icon_git)">
+      <path d="M13.09 23.549a1.54 1.54 0 0 1-2.18 0L.451 13.089a1.54 1.54 0 0 1 0-2.179l7.191-7.19 2.733 2.733a1.85 1.85 0 0 0 .964 2.326v6.66a1.849 1.849 0 1 0 1.54 0V8.957l2.508 2.508a1.85 1.85 0 1 0 1.09-1.09l-2.634-2.634a1.85 1.85 0 0 0-2.378-2.377L8.73 2.63 10.91.451a1.54 1.54 0 0 1 2.179 0l10.459 10.46a1.54 1.54 0 0 1 0 2.179z"/>
+  </g>
+
+  <!-- Tracked Uppercase Chrome Label -->
+  <text x="38" y="21" font-family="'Segoe UI', 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="11" font-weight="800" letter-spacing="1.1" fill="url(#txt_git)">GIT</text>
+</svg>

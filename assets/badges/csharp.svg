@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="78" height="34" viewBox="0 0 78 34" role="img" aria-label="C#">
+  <defs>
+    <linearGradient id="bdr_csharp" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="22%" stop-color="#9ca3af"/>
+      <stop offset="48%" stop-color="#181c24"/>
+      <stop offset="76%" stop-color="#e5e7eb"/>
+      <stop offset="100%" stop-color="#4b5563"/>
+    </linearGradient>
+    <linearGradient id="bg_csharp" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#181c24"/>
+      <stop offset="50%" stop-color="#080a0e"/>
+      <stop offset="100%" stop-color="#131720"/>
+    </linearGradient>
+    <linearGradient id="icon_csharp" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="65%" stop-color="#e5e7eb"/>
+      <stop offset="100%" stop-color="#9ca3af"/>
+    </linearGradient>
+    <linearGradient id="txt_csharp" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="55%" stop-color="#f3f4f6"/>
+      <stop offset="100%" stop-color="#9ca3af"/>
+    </linearGradient>
+    <clipPath id="clip_csharp">
+      <polygon points="6,1 72,1 77,6 77,28 72,33 6,33 1,28 1,6"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#clip_csharp)">
+    <rect x="0" y="0" width="78" height="34" fill="url(#bg_csharp)"/>
+    <!-- Subtle upper-left specular reflection facet -->
+    <polygon points="0,0 40,0 26,34 0,34" fill="#ffffff" fill-opacity="0.06"/>
+    <!-- Subtle 2px crimson accent notch on left rim -->
+    <rect x="1" y="8" width="2.4" height="18" fill="#dc2626"/>
+  </g>
+
+  <!-- 3D Chrome Bevel Outer Stroke -->
+  <polygon points="6,1.2 72,1.2 76.8,6 76.8,28 72,32.8 6,32.8 1.2,28 1.2,6"
+           fill="none" stroke="url(#bdr_csharp)" stroke-width="1.35"/>
+  <!-- Inner Crisp Specular Edge -->
+  <polygon points="7,2.6 71,2.6 75.4,7 75.4,27 71,31.4 7,31.4 2.6,27 2.6,7"
+           fill="none" stroke="#ffffff" stroke-opacity="0.08" stroke-width="0.6"/>
+
+  <!-- 16x16 Monochrome Metallic Logo -->
+  <g transform="translate(13, 9) scale(0.6667)" fill="url(#icon_csharp)">
+      <path d="M22.394 6c-.167-.29-.398-.543-.652-.69L12.926.22c-.509-.294-1.34-.294-1.848 0L2.26 5.31c-.508.293-.923 1.013-.923 1.6v10.18c0 .294.104.62.271.91.167.29.398.543.652.69l8.816 5.09c.508.293 1.34.293 1.848 0l8.816-5.09c.254-.147.485-.4.652-.69.167-.29.27-.616.27-.91V6.91c.003-.294-.1-.62-.268-.91zM12 19.11c-3.92 0-7.109-3.19-7.109-7.11 0-3.92 3.19-7.11 7.11-7.11a7.133 7.133 0 016.156 3.553l-3.076 1.78a3.567 3.567 0 00-3.08-1.78A3.56 3.56 0 008.444 12 3.56 3.56 0 0012 15.555a3.57 3.57 0 003.08-1.778l3.078 1.78A7.135 7.135 0 0112 19.11zM17.35 9.75h.8v1.25h1.2V9.75h.8V11h1.05v.8h-1.05v.9h1.05v.8h-1.05v1.25h-.8V13.5h-1.2v1.25h-.8V13.5H16.3v-.8h1.05v-.9H16.3V11h1.05V9.75zm.8 2.05v.9h1.2v-.9h-1.2z"/>
+  </g>
+
+  <!-- Tracked Uppercase Chrome Label -->
+  <text x="38" y="21" font-family="'Segoe UI', 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="11" font-weight="800" letter-spacing="1.1" fill="url(#txt_csharp)">C#</text>
+</svg>

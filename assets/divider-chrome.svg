@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="16" viewBox="0 0 880 16" role="presentation">
+  <defs>
+    <linearGradient id="divLeft" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#30363d" stop-opacity="0"/>
+      <stop offset="55%" stop-color="#6b7280" stop-opacity="0.55"/>
+      <stop offset="92%" stop-color="#e5e7eb" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#dc2626" stop-opacity="0.95"/>
+    </linearGradient>
+    <linearGradient id="divRight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#dc2626" stop-opacity="0.95"/>
+      <stop offset="8%" stop-color="#e5e7eb" stop-opacity="0.9"/>
+      <stop offset="45%" stop-color="#6b7280" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#30363d" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="gemGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ef4444"/>
+      <stop offset="55%" stop-color="#dc2626"/>
+      <stop offset="100%" stop-color="#7f1d1d"/>
+    </linearGradient>
+  </defs>
+  <rect x="20" y="7.4" width="398" height="1.2" fill="url(#divLeft)"/>
+  <rect x="462" y="7.4" width="398" height="1.2" fill="url(#divRight)"/>
+  <!-- Flanking chrome ticks -->
+  <polygon points="423,8 427,5.5 430,8 427,10.5" fill="#d1d5db"/>
+  <polygon points="457,8 453,5.5 450,8 453,10.5" fill="#d1d5db"/>
+  <!-- Central Crimson Diamond -->
+  <polygon points="440,2 446.5,8 440,14 433.5,8" fill="url(#gemGrad)" stroke="#f3f4f6" stroke-width="0.9"/>
+</svg>
