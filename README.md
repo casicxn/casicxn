@@ -10,7 +10,7 @@
 
 <br/><br/>
 
-<img src="./assets/badge-fosheptic.svg" alt="Fosheptic | Project Leader" height="32" />&nbsp;&nbsp;<img src="https://komarev.com/ghpvc/?username=casicxn&label=VIEWS&color=991b1b&style=for-the-badge" alt="Profile Views" height="32" />
+<img src="./assets/badge-fosheptic.svg" alt="Fosheptic | Project Leader" height="32" />&nbsp;&nbsp;<img src="https://komarev.com/ghpvc/?username=casicxn&label=VIEWS&color=30363d&style=for-the-badge" alt="Profile Views" height="32" />
 
 <br/><br/>
 
@@ -112,11 +112,11 @@
 
 <p>
   <a href="https://github.com/casicxn/ultimate-executive">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=casicxn&repo=ultimate-executive&bg_color=0d1117&border_color=30363d&title_color=f3f4f6&text_color=9ca3af&icon_color=dc2626" alt="ultimate-executive" width="424" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=casicxn&repo=ultimate-executive&bg_color=0d1117&border_color=30363d&title_color=ffffff&text_color=9ca3af&icon_color=e5e7eb" alt="ultimate-executive" width="424" />
   </a>
   &nbsp;
   <a href="https://github.com/casicxn/guard-bot">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=casicxn&repo=guard-bot&bg_color=0d1117&border_color=30363d&title_color=f3f4f6&text_color=9ca3af&icon_color=dc2626" alt="guard-bot" width="424" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=casicxn&repo=guard-bot&bg_color=0d1117&border_color=30363d&title_color=ffffff&text_color=9ca3af&icon_color=e5e7eb" alt="guard-bot" width="424" />
   </a>
 </p>
 
@@ -131,17 +131,17 @@
 <br/>
 
 <p>
-  <img src="https://github-readme-stats.vercel.app/api?username=casicxn&show_icons=true&count_private=true&hide_border=false&bg_color=0d1117&border_color=30363d&title_color=f3f4f6&text_color=9ca3af&icon_color=dc2626&ring_color=dc2626" alt="GitHub Stats" height="182" />
+  <img src="https://github-readme-stats.vercel.app/api?username=casicxn&show_icons=true&count_private=true&hide_border=false&bg_color=0d1117&border_color=30363d&title_color=ffffff&text_color=9ca3af&icon_color=e5e7eb&ring_color=ffffff" alt="GitHub Stats" height="182" />
   &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=casicxn&layout=compact&langs_count=8&hide_border=false&bg_color=0d1117&border_color=30363d&title_color=f3f4f6&text_color=d1d5db" alt="Top Languages" height="182" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=casicxn&layout=compact&langs_count=8&hide_border=false&bg_color=0d1117&border_color=30363d&title_color=ffffff&text_color=d1d5db" alt="Top Languages" height="182" />
 </p>
 
 <p>
-  <img src="https://streak-stats.demolab.com?user=casicxn&background=0d1117&border=30363d&stroke=30363d&ring=dc2626&fire=ef4444&currStreakNum=f3f4f6&sideNums=f3f4f6&currStreakLabel=dc2626&sideLabels=9ca3af&dates=6b7280" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com?user=casicxn&background=0d1117&border=30363d&stroke=30363d&ring=ffffff&fire=e5e7eb&currStreakNum=ffffff&sideNums=e5e7eb&currStreakLabel=ffffff&sideLabels=9ca3af&dates=6b7280" alt="GitHub Streak" />
 </p>
 
 <p>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=casicxn&bg_color=0d1117&color=d1d5db&line=dc2626&point=ffffff&area=true&area_color=7f1d1d&border_color=30363d&hide_border=false" alt="Contribution Activity Graph" width="860" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=casicxn&bg_color=0d1117&color=d1d5db&line=d1d5db&point=ffffff&area=true&area_color=30363d&border_color=30363d&hide_border=false" alt="Contribution Activity Graph" width="860" />
 </p>
 
 <br/>

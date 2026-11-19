@@ -12,6 +12,11 @@
       <stop offset="50%" stop-color="#080a0e"/>
       <stop offset="100%" stop-color="#131720"/>
     </linearGradient>
+    <linearGradient id="rim_zod" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="50%" stop-color="#9ca3af"/>
+      <stop offset="100%" stop-color="#4b5563"/>
+    </linearGradient>
     <linearGradient id="icon_zod" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="#ffffff"/>
       <stop offset="65%" stop-color="#e5e7eb"/>
@@ -31,8 +36,8 @@
     <rect x="0" y="0" width="78" height="34" fill="url(#bg_zod)"/>
     <!-- Subtle upper-left specular reflection facet -->
     <polygon points="0,0 40,0 26,34 0,34" fill="#ffffff" fill-opacity="0.06"/>
-    <!-- Subtle 2px crimson accent notch on left rim -->
-    <rect x="1" y="8" width="2.4" height="18" fill="#dc2626"/>
+    <!-- Monochrome chrome-white bevel notch on left rim -->
+    <rect x="1" y="8" width="2.4" height="18" fill="url(#rim_zod)"/>
   </g>
 
   <!-- 3D Chrome Bevel Outer Stroke -->

@@ -7,15 +7,25 @@
     </linearGradient>
     <linearGradient id="cardChrome" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#ffffff"/>
-      <stop offset="20%" stop-color="#9ca3af"/>
+      <stop offset="22%" stop-color="#9ca3af"/>
       <stop offset="50%" stop-color="#272c36"/>
       <stop offset="78%" stop-color="#e5e7eb"/>
-      <stop offset="100%" stop-color="#7f1d1d"/>
+      <stop offset="100%" stop-color="#525866"/>
+    </linearGradient>
+    <linearGradient id="edgeChrome" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="50%" stop-color="#9ca3af"/>
+      <stop offset="100%" stop-color="#272c36"/>
     </linearGradient>
     <linearGradient id="titleMetal" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="#ffffff"/>
       <stop offset="55%" stop-color="#e5e7eb"/>
       <stop offset="100%" stop-color="#9ca3af"/>
+    </linearGradient>
+    <linearGradient id="shieldPrism" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="50%" stop-color="#9ca3af"/>
+      <stop offset="100%" stop-color="#272c36"/>
     </linearGradient>
     <linearGradient id="diagSheen" x1="0%" y1="0%" x2="65%" y2="100%">
       <stop offset="0%" stop-color="#ffffff" stop-opacity="0.09"/>
@@ -31,30 +41,30 @@
   <g clip-path="url(#cardClip)">
     <rect x="0" y="0" width="860" height="148" fill="url(#cardPlate)"/>
     <polygon points="0,0 860,0 460,148 0,148" fill="url(#diagSheen)"/>
-    <!-- Crimson Left Accent Edge -->
-    <rect x="0" y="0" width="5" height="148" fill="#dc2626"/>
-    <rect x="5" y="0" width="1.5" height="148" fill="#450a0a"/>
+    <!-- Polished Chrome Left Accent Edge -->
+    <rect x="0" y="0" width="5" height="148" fill="url(#edgeChrome)"/>
+    <rect x="5" y="0" width="1.5" height="148" fill="#050608"/>
   </g>
 
   <!-- Outer Chiseled Chrome Border -->
   <polygon points="10,1.2 850,1.2 858.8,10 858.8,138 850,146.8 10,146.8 1.2,138 1.2,10"
            fill="none" stroke="url(#cardChrome)" stroke-width="1.5"/>
 
-  <!-- Gothic Shield Emblem -->
+  <!-- 3D Black & White Chrome Shield Emblem -->
   <g transform="translate(26, 22)">
     <polygon points="15,0 29,6 26.5,21 15,31 3.5,21 1,6" fill="#0d1117" stroke="url(#titleMetal)" stroke-width="1.5"/>
-    <polygon points="15,4.5 24,8.5 22.2,18.5 15,25.5 7.8,18.5 6,8.5" fill="#991b1b" stroke="#ef4444" stroke-width="0.8"/>
-    <polygon points="15,4.5 24,8.5 15,15" fill="#ffffff" fill-opacity="0.16"/>
+    <polygon points="15,4.5 24,8.5 22.2,18.5 15,25.5 7.8,18.5 6,8.5" fill="url(#shieldPrism)" stroke="#ffffff" stroke-width="0.7"/>
+    <polygon points="15,4.5 24,8.5 22.2,18.5 15,25.5" fill="#080a0e" fill-opacity="0.32"/>
   </g>
 
   <!-- Title + Flagship Pill -->
   <text x="68" y="42" font-family="'Segoe UI', 'Inter', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="20" font-weight="900" letter-spacing="2.2" fill="url(#titleMetal)">FOSHEPTIC AC</text>
-  <rect x="252" y="23" width="214" height="22" rx="3" fill="#2b0b10" stroke="#dc2626" stroke-width="1"/>
-  <text x="359" y="38" text-anchor="middle" font-family="'JetBrains Mono', 'Cascadia Code', 'Fira Code', Consolas, 'Courier New', monospace" font-size="10.8" font-weight="700" letter-spacing="1.2" fill="#fca5a5">PROJECT LEADER · FLAGSHIP</text>
+  <rect x="252" y="23" width="214" height="22" rx="3" fill="#181c24" stroke="#9ca3af" stroke-width="1"/>
+  <text x="359" y="38" text-anchor="middle" font-family="'JetBrains Mono', 'Cascadia Code', 'Fira Code', Consolas, 'Courier New', monospace" font-size="10.8" font-weight="700" letter-spacing="1.2" fill="#f3f4f6">PROJECT LEADER · FLAGSHIP</text>
 
   <!-- Right-side Active Status -->
-  <rect x="752" y="22" width="84" height="22" rx="4" fill="#12161f" stroke="#4b5563" stroke-width="1"/>
-  <circle cx="767" cy="33" r="3.5" fill="#ef4444"/>
+  <rect x="752" y="22" width="84" height="22" rx="4" fill="#12161f" stroke="#6b7280" stroke-width="1"/>
+  <circle cx="767" cy="33" r="3.5" fill="#ffffff"/>
   <text x="777" y="37" font-family="'JetBrains Mono', 'Cascadia Code', 'Fira Code', Consolas, 'Courier New', monospace" font-size="11" font-weight="700" letter-spacing="1" fill="#f3f4f6">ACTIVE</text>
 
   <!-- Technical Description -->
