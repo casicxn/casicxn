@@ -10,7 +10,11 @@
 
 <br/><br/>
 
-<img src="./assets/badge-fosheptic.svg" alt="Fosheptic | Project Leader" height="32" />&nbsp;&nbsp;<img src="https://komarev.com/ghpvc/?username=casicxn&label=VIEWS&base=2412&color=30363d&style=for-the-badge" alt="Profile Views" height="32" />
+<a href="https://fosheptic.xyz" target="_blank" rel="noopener noreferrer">
+  <img src="./assets/badge-fosheptic.svg" alt="Fosheptic | Project Leader" height="32" />
+</a>
+&nbsp;&nbsp;
+<img src="https://komarev.com/ghpvc/?username=casicxn&label=VIEWS&base=2412&color=30363d&style=for-the-badge" alt="Profile Views" height="32" />>&nbsp;&nbsp;<img src="https://komarev.com/ghpvc/?username=casicxn&label=VIEWS&base=2412&color=30363d&style=for-the-badge" alt="Profile Views" height="32" />
 
 <br/><br/>
 
