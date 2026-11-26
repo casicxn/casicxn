@@ -22,18 +22,6 @@
 
 <br/>
 
-<img src="./assets/header-whoami.svg" alt="01 // SYSTEM.WHOAMI" width="880" />
-
-<br/>
-
-<img src="./assets/terminal-whoami.svg" alt="System Identity Terminal" width="860" />
-
-<br/><br/>
-
-<img src="./assets/divider-chrome.svg" alt="" width="880" />
-
-<br/>
-
 <img src="./assets/header-presence.svg" alt="02 // LIVE.PRESENCE" width="880" />
 
 <br/>
@@ -109,10 +97,6 @@
 <img src="./assets/header-projects.svg" alt="04 // FEATURED.SYSTEMS" width="880" />
 
 <br/>
-
-<img src="./assets/project-fosheptic.svg" alt="Fosheptic AC Flagship System" width="860" />
-
-<br/><br/>
 
 <p>
   <a href="https://github.com/casicxn/ultimate-executive">
